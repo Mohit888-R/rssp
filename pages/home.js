@@ -9,7 +9,7 @@ import List from '../components/Lists';
 import Link from 'next/link';
 
 
-function home() {
+function Home() {
   const [open, setOpen] = useState(false);
   return (
     <div>
@@ -28,4 +28,4 @@ function home() {
   )
 }
 
-export default home;
+export default Home;

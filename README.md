@@ -1,34 +1,128 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **DEDICATED PROBLEM STATEMENT :**
+Development of citizen centric the web portal for imitigating **ROAD SAFETY ISSUES**:
+- A person can raise an issuie or report any violation through the portal.
+- In case of an accident ,as soon as it is reported on the portal , alerts or notifications to the nearby police stations and hospitals.
+- In case of any violation police and other stackholder may take an action onto the issue raise by the user at the portal.
+- The solution sho8ld help to prevent accidents as well.
 
-## Getting Started
+# **SOLUTION APPROACH:**
+- We developed **MERN ARCHITECTURE** based web app and web portal for users and stackholders respectively.
+- User and stackholders can register themselves and login into portal after proper authentication.
+- We developed the web-app user interface using **React.js** where any authenticate user can raise his/her issues about road safety and violations and send alerts to the respective stackholders.
+- Stackholder's web portal's user interface also developed using **React.js** where they gets the alerts by notifications and can respond the the issues and alerts.
+- We **Mongo-db** database for storing the user and stackholders details and all the data of the alerts and issues.
+- Backend of the portal is developed using **Node.js**.
 
-First, run the development server:
+    
+# **HOW THIS PORTAL GOING TO WORK:**
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- firstly users have to register themselves on the registration page by filling the required details.(curently only for users of Rajasthan)
+User will login with their ceredientials at the login page.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ ## **USER REGISTRATION**
+![USER REGISTERATION](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/signupPage.png) 
+## **USER LOGIN**
+![USER LOGIN](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/loginPage.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Now users taken to home page where they can raise an issue or sent alerts just by clicking either of the given options and users also can see their previously raised issues and alerts in a table format with the status of response.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## **HOME PAGE**
+![HOEMPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/homePage1.png)
+![HOMEPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/homePage2.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- As well as stackholders can register and login.(Stackholder will be a dedicated person either from police station or hospital.)
+## **STACKHOLDER REGISTRATION**
+![STACKHOLDER](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/register.png)
 
-## Learn More
+## **STACKHOLDER LOGIN**
+![STACKHOLDER](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/login.png)
 
-To learn more about Next.js, take a look at the following resources:
+- Then they are taken to their homepage where they find options either to see the posted issues and alerts notifications. Stackholders also can response to them ,which shown on the user homepage in real time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **HOEMPAGE**
+![HOMEPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-report.png)
+![HOMEPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-alerts.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Now users can raise an issue and taken to the page where they can select the authority and write deScription of the issue and fill address and submit.
+## **RAISE A ISSUE**
+![ISSUE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/raiseIssue.png)
 
-## Deploy on Vercel
+- Then this issue is posted to the stackholder's portal in form of the lists where they may take actions and provide response.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ** ISSUE POSTED TO THE STACKHOLDER'S PORTAL**
+![ISSUE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-report.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- User can also send alerts to the stackholders by clicking on the given option and taken to the page where he can provide the details of the address and reason for the alerts. Here user have to allow location permission as their live location can accces by the portal which later posted to the stackholders portal along with the captured image of the incident.
+
+## ** SENDINF ALERTS**
+![ALERTS](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/alert.png)
+
+- Then these alerts can be seen at the stackholders side in list format with time and date where they can see the location amd image and respond to the alerts.
+-
+## ** ALERTS POSTED TO THE STACKHOLDER'S PORTAL**
+![ALERT](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-alerts.png)
+
+# **DEDICATED PROBLEM STATEMENT :**
+Development of citizen centric the web portal for imitigating **ROAD SAFETY ISSUES**:
+- A person can raise an issuie or report any violation through the portal.
+- In case of an accident ,as soon as it is reported on the portal , alerts or notifications to the nearby police stations and hospitals.
+- In case of any violation police and other stackholder may take an action onto the issue raise by the user at the portal.
+- The solution sho8ld help to prevent accidents as well.
+
+# **SOLUTION APPROACH:**
+- We developed **MERN ARCHITECTURE** based web app and web portal for users and stackholders respectively.
+- User and stackholders can register themselves and login into portal after proper authentication.
+- We developed the web-app user interface using **React.js** where any authenticate user can raise his/her issues about road safety and violations and send alerts to the respective stackholders.
+- Stackholder's web portal's user interface also developed using **React.js** where they gets the alerts by notifications and can respond the the issues and alerts.
+- We **Mongo-db** database for storing the user and stackholders details and all the data of the alerts and issues.
+- Backend of the portal is developed using **Node.js**.
+
+    
+# **HOW THIS PORTAL GOING TO WORK:**
+
+- firstly users have to register themselves on the registration page by filling the required details.(curently only for users of Rajasthan)
+User will login with their ceredientials at the login page.
+
+ ## **USER REGISTRATION**
+![USER REGISTERATION](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/signupPage.png) 
+## **USER LOGIN**
+![USER LOGIN](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/loginPage.png)
+
+- Now users taken to home page where they can raise an issue or sent alerts just by clicking either of the given options and users also can see their previously raised issues and alerts in a table format with the status of response.
+
+## **HOME PAGE**
+![HOEMPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/homePage1.png)
+![HOMEPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/homePage2.png)
+
+- As well as stackholders can register and login.(Stackholder will be a dedicated person either from police station or hospital.)
+## **STACKHOLDER REGISTRATION**
+![STACKHOLDER](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/register.png)
+
+## **STACKHOLDER LOGIN**
+![STACKHOLDER](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/login.png)
+
+- Then they are taken to their homepage where they find options either to see the posted issues and alerts notifications. Stackholders also can response to them ,which shown on the user homepage in real time.
+
+## **HOEMPAGE**
+![HOMEPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-report.png)
+![HOMEPAGE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-alerts.png)
+
+- Now users can raise an issue and taken to the page where they can select the authority and write deScription of the issue and fill address and submit.
+## **RAISE A ISSUE**
+![ISSUE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/raiseIssue.png)
+
+- Then this issue is posted to the stackholder's portal in form of the lists where they may take actions and provide response.
+
+## ** ISSUE POSTED TO THE STACKHOLDER'S PORTAL**
+![ISSUE](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-report.png)
+
+- User can also send alerts to the stackholders by clicking on the given option and taken to the page where he can provide the details of the address and reason for the alerts. Here user have to allow location permission as their live location can accces by the portal which later posted to the stackholders portal along with the captured image of the incident.
+
+## ** SENDINF ALERTS**
+![ALERTS](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/alert.png)
+
+- Then these alerts can be seen at the stackholders side in list format with time and date where they can see the location amd image and respond to the alerts.
+-
+## ** ALERTS POSTED TO THE STACKHOLDER'S PORTAL**
+![ALERT](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-alerts.png)
+

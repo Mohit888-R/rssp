@@ -83,7 +83,7 @@ function Register() {
         <div className='flex justify-center'>
             <div className='grid lg:grid-cols-2 grid-cols-1 border'>
                 <div className='lg:flex hidden '>
-                    <Image src={LoginSideImage} width={700} height={700} className="object-contain" />
+                    <Image src={LoginSideImage} width={700} height={700} className="object-contain"  alt=''/>
                 </div>
                 <div className=''>
                     <div className='flex justify-center pt-8 pb-4'>

@@ -21,7 +21,7 @@ function Home() {
         <Link  href='/alert' className='border-2 border-black hover:bg-black hover:text-white hover:bg-opacity-80 rounded-full px-4 py-2 flex items-center'>Send Alert <MdAddAlert className="w-6 h-6   ml-2"/></Link>
       </div>
       <div className='mt-20 px-8'>
-        <p className='flex  text-[24px] items-center border-b hover:cursor-pointer border-black px-2' onClick={()=>{setOpen(!open)}}> <span className="flex">  See Your Previous Concerns (Reports & Alerts) </span> <Image src={DropDowns} width={40} height={40}  className={`${open ? "" : "-rotate-90 mt-2"}`}/></p>
+        <p className='flex  text-[24px] items-center border-b hover:cursor-pointer border-black px-2' onClick={()=>{setOpen(!open)}}> <span className="flex">  See Your Previous Concerns (Reports & Alerts) </span> <Image src={DropDowns} width={40} height={40}  className={`${open ? "" : "-rotate-90 mt-2"}`} alt=""/></p>
         {open? <List/> : ""}
       </div>  
     </div>

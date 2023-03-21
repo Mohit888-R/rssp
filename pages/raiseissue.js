@@ -4,7 +4,7 @@ import Select from "../components/forms/Select";
 import Navbar from '../components/Navbar';
 import {HiOutlineHandRaised} from "react-icons/hi2";
 
-function raiseissue() {
+function Raiseissue() {
     const [policeStationCheck, setPoliceStationCheck] = useState(false);
     const [hospitalCheck, setHospitalCheck] = useState(false);
 
@@ -1269,4 +1269,4 @@ function raiseissue() {
     )
 }
 
-export default raiseissue
+export default Raiseissue;

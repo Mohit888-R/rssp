@@ -7,8 +7,9 @@ import Input from "./forms/Input";
 import Select from "./forms/Select";
 import {useRouter} from "next/router"; 
 import {loginUser} from "../api-call/index";
+import Link from 'next/link';
 
-function login() {
+function Login() {
     const router = useRouter();
     const [itemLink, setitemLink] = useState('');
  
@@ -70,7 +71,7 @@ function login() {
                         </Input>
 
                         <button className='bg-blue-500 w-full py-1.5 rounded-md text-white' >Submit</button>
-                        <p>If you don't have an account? Please do resiter and verify. <a href='/register' className='text-blue-500 hover:underline'>Sign Up</a> </p>
+                        <p>If you don't have an account? Please do resiter and verify. <Link href='/register' className='text-blue-500 hover:underline'>Sign Up</Link> </p>
                     </form>
                 </div>
             </div>
@@ -78,4 +79,4 @@ function login() {
   )
 }
 
-export default login
+export default Login

@@ -12,6 +12,7 @@ let State = require('country-state-city').State;
 let City = require('country-state-city').City;
 import * as Axios from "../api-call/index";
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 function Register() {
     const router = useRouter();
@@ -132,7 +133,7 @@ function Register() {
                         <Input type="text" value={street} onChange={(e)=>setStreet(e.target.value)} placeholder="Street" >Street</Input>
                         <Input type="text" value={pincode} onChange={(e)=>setPincode(e.target.value)} placeholder="Pin code" required>Pin Code</Input>
                         <button className='bg-blue-500 w-full py-1.5 rounded-md text-white' >Submit</button>
-                        <p>If you have already account? <a href='/' className='text-blue-500 hover:underline'>Log In</a> </p>
+                        <p>If you have already account? <Link href='/' className='text-blue-500 hover:underline'>Log In</Link> </p>
                     </form>
                 </div>
             </div>

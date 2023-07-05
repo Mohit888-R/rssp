@@ -122,7 +122,7 @@ User will login with their ceredientials at the login page.
 ![ALERTS](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/user/alert.png)
 
 - Then these alerts can be seen at the stackholders side in list format with time and date where they can see the location amd image and respond to the alerts.
--
+
 ## ** ALERTS POSTED TO THE STACKHOLDER'S PORTAL**
-![ALERT](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-alerts.png)
+![ALERT](https://github.com/Mohit888-R/icoders/blob/main/ScreenShot/stackholder/home-alerts.png) 
 
